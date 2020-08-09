@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "b4d101fb-828a-4b73-8034-b02905940692"
+        },
+        "name": {
+            "value": "appserviceraks"
+        },
+        "name2": {
+            "value": "appserviceraks2"
+        },
+        "name3": {
+            "value": "appserviceraks3"
+        },
+        "location": {
+            "value": "Central US"
+        },
+        "hostingPlanName": {
+            "value": "appserviceplan1"
+        },
+        "hostingPlanName1": {
+            "value": "appserviceplan2"
+        },
+        "serverFarmResourceGroup": {
+            "value": "RG5"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "skuCode": {
+            "value": "S1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "currentStack": {
+            "value": "dotnetcore"
+        },
+        "phpVersion": {
+            "value": "OFF"
+        },
+        "errorLink": {
+            "value": "https://appserviceraks.scm.azurewebsites.net/detectors?type=tools&name=eventviewer"
+        }
+    }
+}
